@@ -41,7 +41,6 @@ SPDX-License-Identifier: AGPL-3.0-only
 			src: url('./fonts/pkmnems.ttf') format('truetype');
 		}
 	</style>
-	<link rel="stylesheet" type="text/css" href="./index.css" />
 	<link rel="manifest" href="./manifest.webmanifest">
   <script>
     if ("serviceWorker" in navigator) {
@@ -62,6 +61,10 @@ SPDX-License-Identifier: AGPL-3.0-only
       e.preventDefault();
     });
   </script>
+  <script type="module" crossorigin src="./assets/index-DOFo8lNC.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/touch-controls-BrEgHWrX.js">
+  <link rel="modulepreload" crossorigin href="./assets/RoundRectangle-D5oHrsn1.js">
+  <link rel="stylesheet" crossorigin href="./assets/index-BnAwyMG9.css">
 </head>
 
 <body>
@@ -147,7 +150,5 @@ SPDX-License-Identifier: AGPL-3.0-only
 
 		</div>
 	</div>
-	<script type="module" src="./src/main.ts"></script>
-	<script src="./src/touch-controls.ts" type="module"></script>
 </body>
 </html>
